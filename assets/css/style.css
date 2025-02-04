@@ -3,8 +3,9 @@
     opacity: 70%;
 }
 
-tbody{
+body{
     font-size: 14px;
+
 }
 /* tr>td:nth-of-type(4){
     text-align: center;
