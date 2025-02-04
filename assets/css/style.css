@@ -3,6 +3,12 @@
     opacity: 70%;
 }
 
+tbody{
+    font-size: 14px;
+}
 /* tr>td:nth-of-type(4){
     text-align: center;
+    padding: 6px 0;
+    min-width: 100pxpx;
+
 } */
