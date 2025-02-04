@@ -2,3 +2,7 @@
     color: gray;
     opacity: 70%;
 }
+
+/* tr>td:nth-of-type(4){
+    text-align: center;
+} */
