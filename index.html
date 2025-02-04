@@ -21,8 +21,8 @@
       referrerpolicy="no-referrer"
     />
 
-    <link rel="stylesheet" href="./assets/css/style.css">
-    
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
     <title>Bootstrap</title>
   </head>
   <body>
@@ -59,14 +59,10 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-secondary" href="#"
-                  >Storico Prestiti</a
-                >
+                <a class="nav-link text-secondary" href="#">Storico Prestiti</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-secondary" href="#"
-                  >Help</a
-                >
+                <a class="nav-link text-secondary" href="#">Help</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -76,9 +72,7 @@
                 placeholder="Cerca..."
                 aria-label="Search"
               />
-              <button class="btn btn-outline-light" type="submit">
-                Cerca
-              </button>
+              <button class="btn btn-outline-light" type="submit">Cerca</button>
             </form>
           </div>
         </div>
@@ -88,9 +82,9 @@
     <main>
       <div class="container overflow-hidden text-center">
         <div class="row gx-5">
+          <!--  #region TABLE -->
           <div class="col-12 col-lg-8">
             <div class="p-3">
-              Custom column padding
               <table class="table">
                 <thead>
                   <tr>
@@ -122,12 +116,14 @@
               </table>
             </div>
           </div>
+          <!--  #endregion TABLE -->
+
+          <!--  #region TODO CHECKLIST -->
           <div class="col-12 col-lg-4">
             <div class="p-3">
-              Custom column padding
-              <div class="card" style="width: 18rem">
-                <div class="card-header">Featured</div>
-                <ul class="list-group">
+              <div class="card text-start" >
+                <div class="card-header"><h2>Todo</h2></div>
+                <ul class="list-group m-3">
                   <li class="list-group-item">
                     <input
                       class="form-check-input me-1"
@@ -163,14 +159,16 @@
                   </li>
                 </ul>
               </div>
+              <!--  #endregion TODO CHECKLIST -->
 
-              <div class="card" style="width: 18rem">
-                <div class="card-header">Featured</div>
-                <div class="accordion" id="accordionExample">
+              <!--  #region F.A.Q. -->
+              <div class="card" >
+                <div class="card-header text-start"><h2>F.A.Q.</h2></div>
+                <div class="accordion m-3" id="accordionExample">
                   <div class="accordion-item">
                     <h2 class="accordion-header">
                       <button
-                        class="accordion-button"
+                        class="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseOne"
@@ -182,7 +180,7 @@
                     </h2>
                     <div
                       id="collapseOne"
-                      class="accordion-collapse collapse show"
+                      class="accordion-collapse collapse"
                       data-bs-parent="#accordionExample"
                     >
                       <div class="accordion-body">
@@ -271,6 +269,7 @@
                   </div>
                 </div>
               </div>
+              <!--  #endregion F.A.Q. -->
             </div>
           </div>
         </div>
